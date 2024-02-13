@@ -1,0 +1,56 @@
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    background-image: url(./assets/worldmap.png);
+    display: grid;
+    
+    grid-template-areas: "img title"
+                         "img subtitle"
+}
+
+.header-img {
+    width: 50%;
+    height: 50%;
+    grid-area: img;
+    padding: 80px 20px 10px 80px;;
+}
+
+h4 {
+  color:  #32CD32;
+  font-size: 3em;
+  margin-bottom: 5px;
+  grid-area: title;
+  padding: 40px 10px 5px 5px;
+}
+
+p {
+    color: #fff;
+    margin-top: 0;
+    grid-area: subtitle;
+    padding: 0px 10px;
+}
+
+main > p {
+    color: #035A9D;
+    margin: 20px 5px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+button {
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: red;
+}
